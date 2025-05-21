@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Riverhead Foods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    </head>
+<body>
+
+    <header class="sticky-top shadow-sm">
+        <div class="bg-light top-bar">
+            <div class="container d-flex flex-wrap justify-content-center justify-content-md-between align-items-center py-2">
+                <div class="top-bar-contact mb-1 mb-md-0 text-center text-md-start">
+                    <a href="tel:+15551234567" class="text-decoration-none top-bar-contact-link me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-telephone-fill me-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.305 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
+                        (555) 123-4567
+                    </a>
+                    <span class="contact-divider mx-2 d-none d-sm-inline">|</span>
+                    <a href="mailto:info@riverheadfoods.com" class="text-decoration-none top-bar-contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope-fill me-1" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg>
+                        info@riverheadfoods.com
+                    </a>
+                </div>
+                <div class="top-bar-links">
+                    <a href="private-label.html" class="text-decoration-none me-3 top-bar-link">Private Label</a>
+                    <a href="faq.html" class="text-decoration-none top-bar-link">FAQ</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white main-navbar py-0">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center py-2" href="index.html">
+                    <img src="assets/images/Riverhead-logo-full.svg" alt="Riverhead Logo" id="siteLogoInNav">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavContent" aria-controls="mainNavContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 active" aria-current="page" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="our-brand.html">Our Brand</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="where-to-buy.html">Where to Buy</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="for-your-business.html">For Your Business</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                    <form class="d-none d-lg-flex ms-auto header-search-form align-self-center" role="search" id="headerSearchFormDesktop" action="search-results.html" method="GET">
+                        <input class="form-control form-control-sm" type="search" name="query" id="headerSearchInputDesktop" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-secondary btn-sm" type="submit" id="headerSearchButtonDesktop" aria-label="Submit search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="pt-3 mb-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Products</li>
+                </ol>
+            </nav>
+            <h1 class="display-5 fw-bold text-center text-md-start">Our Products</h1>
+            <p class="lead text-muted text-center text-md-start">Explore Riverhead's wide selection of high-quality beans, rice, grains, and specialty items, perfect for every meal and every pantry.</p>
+        </div>
+
+        <div class="row g-5">
+            <aside class="col-lg-3">
+                <div class="p-4 bg-white rounded shadow-sm filter-sidebar">
+                    <h5 class="fw-semibold mb-3 border-bottom pb-2">Filter Products</h5>
+                    
+                    <div class="mb-4">
+                        <label for="filterCategory" class="form-label small fw-medium">Category</label>
+                        <select class="form-select form-select-sm" id="filterCategory">
+                            <option selected>All Categories</option>
+                            <option value="beans">Beans</option>
+                            <option value="rice">Rice</option>
+                            <option value="grains-seeds">Grains & Seeds</option>
+                            <option value="peas">Peas</option>
+                            <option value="lentils">Lentils</option>
+                            <option value="flour-meal">Flour & Meal</option>
+                            <option value="popcorn">Popcorn</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label small fw-medium">Pack Size (Retail)</label>
+                        <div class="list-unstyled" style="max-height: 150px; overflow-y: auto;">
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="1lb" id="size1lb">
+                                <label class="form-check-label small" for="size1lb">1 lb Bag</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="1.5lb" id="size1_5lb">
+                                <label class="form-check-label small" for="size1_5lb">1.5 lb (Produce Pack)</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="1.7lb" id="size1_7lb">
+                                <label class="form-check-label small" for="size1_7lb">1.7 lb (Produce Pack)</label>
+                            </div>
+                             <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="2lb" id="size2lb">
+                                <label class="form-check-label small" for="size2lb">2 lb Bag</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="4lb" id="size4lb">
+                                <label class="form-check-label small" for="size4lb">4 lb Bag</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="checkbox" value="bulk" id="sizeBulk">
+                                <label class="form-check-label small" for="sizeBulk">Larger Sizes (20lb+)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="sortBy" class="form-label small fw-medium">Sort By</label>
+                        <select class="form-select form-select-sm" id="sortBy">
+                            <option selected value="popularity">Popularity</option>
+                            <option value="name-asc">Name: A to Z</option>
+                            <option value="name-desc">Name: Z to A</option>
+                        </select>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success btn-sm" type="button" id="applyFiltersBtn">Apply Filters</button>
+                        <button class="btn btn-outline-secondary btn-sm" type="button" id="clearFiltersBtn">Clear Filters</button>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-top">
+                         <h6 class="fw-semibold mb-2">Full Catalog</h6>
+                         <p class="small text-muted mb-2">View all our products in one place.</p>
+                         <a href="assets/files/riverhead-retail-catalog.pdf" target="_blank" class="btn btn-sm btn-outline-success w-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download me-1" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg>
+                            Download Catalog
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="col-lg-9">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" id="productListings">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-beans.jpg" class="card-img-top product-card-img" alt="Black Beans">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Black Beans (Black Turtle)</h5>
+                                <p class="card-text small text-muted flex-grow-1">Rich, earthy flavor, great for soups & Latin dishes.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">1 lb, 4 lb, Produce Pack</span></p>
+                                <a href="product-detail.html?product=black-beans" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-rice.jpg" class="card-img-top product-card-img" alt="Extra Long Grain White Rice">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Extra Long Grain White Rice</h5>
+                                <p class="card-text small text-muted flex-grow-1">Classic, versatile, fluffy when cooked. A pantry essential.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">1 lb, Produce Pack</span></p>
+                                <a href="product-detail.html?product=white-rice" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-garbanzo.jpg" class="card-img-top product-card-img" alt="Garbanzo Beans">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Garbanzo Beans (Chick Peas)</h5>
+                                <p class="card-text small text-muted flex-grow-1">Nutty and firm, essential for hummus and salads.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">1 lb, 4 lb, Produce Pack</span></p>
+                                <a href="product-detail.html?product=garbanzo-beans" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-lentils.jpg" class="card-img-top product-card-img" alt="Green Lentils">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Green Lentils</h5>
+                                <p class="card-text small text-muted flex-grow-1">Quick-cooking, high in protein, great for hearty soups.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">1 lb, 4 lb, Produce Pack</span></p>
+                                <a href="product-detail.html?product=green-lentils" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-popcorn.jpg" class="card-img-top product-card-img" alt="Yellow Butterfly Popcorn">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Yellow Butterfly Popcorn</h5>
+                                <p class="card-text small text-muted flex-grow-1">Classic movie theater style, light and wonderfully crispy.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">1 lb, Produce Pack</span></p>
+                                <a href="product-detail.html?product=popcorn" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-quinoa.jpg" class="card-img-top product-card-img" alt="White Quinoa">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">White Quinoa</h5>
+                                <p class="card-text small text-muted flex-grow-1">Versatile ancient grain, complete protein with a mild flavor.</p>
+                                <p class="small fw-medium mb-2">Available in: <span class="fw-normal">Produce Pack</span></p>
+                                <a href="product-detail.html?product=quinoa-white" class="btn btn-outline-success btn-sm mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav aria-label="Product navigation" class="mt-5 d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a></li>
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start gy-4">
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-md-3">
+                    <img src="assets/images/Riverhead-logo-full-outline.svg" alt="Riverhead Logo White Outline" class="footer-logo mb-3 d-block mx-auto mx-md-0">
+                    <p class="small footer-slogan">"A Legacy of Exceptional Beans since 1960"</p>
+                    <p class="small mt-3 footer-copyright">&copy; <span id="currentYearFooter"></span> Metro Commodities, Inc. <br class="d-none d-md-inline">All Rights Reserved.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer-links">
+                    <h5 class="text-uppercase mb-4 fw-bold">Quick Links</h5>
+                    <p class="mb-1"><a href="index.html" class="text-decoration-none">Home</a></p>
+                    <p class="mb-1"><a href="products.html" class="text-decoration-none">Products</a></p>
+                    <p class="mb-1"><a href="our-brand.html" class="text-decoration-none">Our Brand</a></p>
+                    <p class="mb-1"><a href="where-to-buy.html" class="text-decoration-none">Where to Buy</a></p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer-links">
+                    <h5 class="text-uppercase mb-4 fw-bold">Support</h5>
+                    <p class="mb-1"><a href="for-your-business.html" class="text-decoration-none">For Your Business</a></p>
+                    <p class="mb-1"><a href="private-label.html" class="text-decoration-none">Private Label</a></p>
+                    <p class="mb-1"><a href="contact-us.html" class="text-decoration-none">Contact Us</a></p>
+                    <p class="mb-1"><a href="faq.html" class="text-decoration-none">FAQ</a></p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer-contact">
+                    <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
+                    <p class="small mb-1"><span class="fw-bold">Metro Commodities, Inc.</span></p>
+                    <p class="small mb-1">123 Riverhead Lane, Foodsville, USA</p>
+                    <p class="small mb-1">Email: info@riverheadfoods.com</p>
+                    <p class="small mb-1">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+             <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center footer-legal-links">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item"><a href="privacy-policy.html" class="text-decoration-none small">Privacy Policy</a></li>
+                    <li class="list-inline-item mx-1 small">|</li>
+                    <li class="list-inline-item"><a href="terms-of-use.html" class="text-decoration-none small">Terms of Use</a></li>
+                     <li class="list-inline-item mx-1 small">|</li>
+                    <li class="list-inline-item"><a href="sitemap.html" class="text-decoration-none small">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

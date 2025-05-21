@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverhead Foods - Quality Beans, Rice & Grains</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <header class="sticky-top shadow-sm">
+        <div class="bg-light top-bar">
+            <div class="container d-flex flex-wrap justify-content-center justify-content-md-between align-items-center py-2">
+                <div class="top-bar-contact mb-1 mb-md-0 text-center text-md-start">
+                    <a href="tel:+15551234567" class="text-decoration-none top-bar-contact-link me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-telephone-fill me-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.305 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
+                        (555) 123-4567
+                    </a>
+                    <span class="contact-divider mx-2 d-none d-sm-inline">|</span>
+                    <a href="mailto:info@riverheadfoods.com" class="text-decoration-none top-bar-contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope-fill me-1" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg>
+                        info@riverheadfoods.com
+                    </a>
+                </div>
+                <div class="top-bar-links">
+                    <a href="private-label.html" class="text-decoration-none me-3 top-bar-link">Private Label</a>
+                    <a href="faq.html" class="text-decoration-none top-bar-link">FAQ</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white main-navbar py-0">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center py-2" href="index.html">
+                    <img src="assets/images/Riverhead-logo-full.svg" alt="Riverhead Logo" id="siteLogoInNav">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavContent" aria-controls="mainNavContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link px-lg-3 active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="our-brand.html">Our Brand</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="where-to-buy.html">Where to Buy</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="for-your-business.html">For Your Business</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                    <form class="d-none d-lg-flex ms-auto header-search-form align-self-center" role="search" id="headerSearchFormDesktop" action="search-results.html" method="GET">
+                        <input class="form-control form-control-sm" type="search" name="query" id="headerSearchInputDesktop" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-secondary btn-sm" type="submit" id="headerSearchButtonDesktop" aria-label="Submit search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active hero-carousel-item" style="background-image: url('assets/images/hero-slide-1.jpg');">
+                    <div class="container h-100">
+                        <div class="carousel-caption d-none d-md-flex flex-column justify-content-center h-100 text-start">
+                            <h1 class="display-4 fw-bolder">Premium Quality Beans & Grains</h1>
+                            <p class="lead col-lg-8 fs-5">Discover the Riverhead difference – wholesome goodness for your family. A legacy of exceptional quality since 1960.</p>
+                            <p><a href="products.html" class="btn btn-success btn-lg mt-3">
+                                Explore Our Products
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                            </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item hero-carousel-item" style="background-image: url('assets/images/hero-slide-2-notext.jpg');">
+                </div>
+                <div class="carousel-item hero-carousel-item" style="background-image: url('assets/images/hero-slide-3.jpg');">
+                     <div class="container h-100">
+                        <div class="carousel-caption d-none d-md-flex flex-column justify-content-center h-100 text-end">
+                            <h1 class="display-4 fw-bolder">For Your Table, For Your Business</h1>
+                            <p class="lead col-lg-8 ms-auto fs-5">Providing the best for retail customers and business partners alike.</p>
+                            <p><a href="for-your-business.html" class="btn btn-light btn-lg mt-3">
+                                Business Solutions
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                            </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section class="py-5 section-padding">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-5">Featured Products</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/product-beans-black-large.jpg" class="card-img-top featured-product-card-img" alt="Premium Black Beans">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Premium Black Beans</h5>
+                                <p class="card-text small text-muted flex-grow-1">Rich, earthy flavor, perfect for your favorite recipes.</p>
+                                <a href="product-detail.html?product=black-beans" class="btn btn-outline-success mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-rice.jpg" class="card-img-top featured-product-card-img" alt="Long Grain White Rice">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Long Grain White Rice</h5>
+                                <p class="card-text small text-muted flex-grow-1">Fluffy and versatile, a staple for any meal.</p>
+                                <a href="product-detail.html?product=white-rice" class="btn btn-outline-success mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-lentils.jpg" class="card-img-top featured-product-card-img" alt="Green Lentils">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Green Lentils</h5>
+                                <p class="card-text small text-muted flex-grow-1">Nutritious and quick-cooking, great for soups and salads.</p>
+                                <a href="product-detail.html?product=green-lentils" class="btn btn-outline-success mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 shadow-sm product-card-hover">
+                            <img src="assets/images/placeholder-pinto.jpg" class="card-img-top featured-product-card-img" alt="Pinto Beans">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-semibold">Pinto Beans</h5>
+                                <p class="card-text small text-muted flex-grow-1">Creamy texture, ideal for traditional dishes and refried beans.</p>
+                                <a href="product-detail.html?product=pinto-beans" class="btn btn-outline-success mt-auto">
+                                    View Details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="products.html" class="btn btn-success btn-lg">
+                        View All Products
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold">Our Commitment to Quality & The Benefits For Your Kitchen</h2>
+                </div>
+                
+                <div class="row align-items-center g-5 mb-5 pb-4">
+                    <div class="col-lg-6">
+                        <img src="assets/images/brand-promise-image.jpg" class="img-fluid rounded shadow-lg" alt="Riverhead Sourcing Quality">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="fw-semibold mb-3 fs-5 text-riverhead-green-dark">A Legacy of Quality & Trust Since 1960</p>
+                        <p class="text-muted mb-3" style="font-size: 1.1rem;">Since 1960, Riverhead has been synonymous with trust and quality. Our journey, spanning three generations, is built on a deep understanding of grains and legumes, ensuring that only the best products reach your pantry.</p>
+                        <p class="text-muted mb-4" style="font-size: 0.95rem;">
+                            We control the process from selection to packaging, guaranteeing consistency and value you can trust. This is the Riverhead promise to your family and your business.
+                        </p>
+                        <a href="our-brand.html" class="text-link-cta text-success">
+                            Learn More About Our Story 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <h3 class="text-center h2 fw-bold mb-5 pt-md-4">What This Tradition & Commitment Brings to Your Table</h3>
+                <div class="row g-4 text-center">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="p-3">
+                            <div class="icon-feature text-success mb-3 d-inline-block bg-success-subtle p-3 rounded-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16"><path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9z"/><path d="M10.464 3.314a.5.5 0 0 0-.945-.049L6.29 10.328l1.207 1.81L8 12.5l2.186-1.457 1.207-1.81zm-.993-1.647a.5.5 0 0 0 .04-.001l.993-.04a.5.5 0 0 0 .416-.502l-.169-1.496a.5.5 0 0 0-.963-.062l-.16 1.282zM13.293 1.686a.5.5 0 0 0-.035.002L12.01 2.228a.5.5 0 0 0-.005.046l.162 1.287a.5.5 0 0 0 .963.062l.169-1.496a.5.5 0 0 0-.415-.502z"/></svg>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Naturally Nutritious</h5>
+                            <p class="small text-muted">Packed with wholesome goodness from carefully selected North American farms, ensuring natural quality and freshness in every bite.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="p-3">
+                            <div class="icon-feature text-success mb-3 d-inline-block bg-success-subtle p-3 rounded-circle">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16"><path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.37-.351-3.75-.085-.996-.17-2.276-.206-3.522-.029-.989.096-2.19.028-3.288-.06-.952-.28-1.758-.417-2.345-.119-.524-.312-.9-.532-1.235-.336-.516-.83-1.033-1.434-1.446C7.672 1.08 6.345.931 4.978.987c-.987.04-.927.434-.986.999-.047.475-.05.956-.003 1.42.054.538.147 1.147.339 1.766.165.546.474 1.255.953 1.898.353.472.809.936 1.336 1.355.852.673 2.043.996 3.177.845.855-.115 1.276-.634 1.401-1.175.09-.398.149-.84.132-1.282-.012-.32-.083-.618-.083-.618s-.01.004-.01.004a.6.6 0 0 1-.12-.03c-.003 0-.007-.003-.01-.003-.043-.01-.19-.028-.585-.042-.47-.017-.924-.003-1.28.004-.25.004-.562.004-.562.004l-.003.001a.5.5 0 0 1-.01.002l-.002.002-.002.002a.5.5 0 0 1-.003.002l-.002.003-.001.002a.5.5 0 0 1-.002.002L6.12 7.12l-.002.002a.5.5 0 0 1-.002.002l-.002.002a.5.5 0 0 1-.002.002L4.865 8.55l-.002.002a.5.5 0 0 1-.002.003l-.002.002a.5.5 0 0 1-.002.003L3.5 10.07l-.002.003c0 .001 0 .002.002.003a1 1 0 0 1 .165.823c.075.31.206.602.369.86.174.275.393.53.649.762.252.23.523.433.81.612.01.007.018.015.028.022l.006.004a1.4 1.4 0 0 1 .25.168c.008.005.015.01.022.015l.01.007a1.4 1.4 0 0 1 .276.15c.003.002.007.003.01.005l.008.005a1.4 1.4 0 0 1 .29.136c.003.001.005.003.008.004l.01.005a1.4 1.4 0 0 1 .3.118l.003.001.008.003.01.004.01.003.002.001.007.003.01.002A1.3 1.3 0 0 1 12.433 10.07M11.5 2H4.5a1 1 0 0 0-1 1v1.5A1.5 1.5 0 0 0 5 6h6a1.5 1.5 0 0 0 1.5-1.5V3a1 1 0 0 0-1-1"/></svg>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Versatile & Delicious</h5>
+                            <p class="small text-muted">The perfect foundation for a wide variety of your family's favorite, flavorful recipes, from hearty stews to vibrant salads.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="p-3">
+                            <div class="icon-feature text-success mb-3 d-inline-block bg-success-subtle p-3 rounded-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16"><path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/></svg>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Consistent Quality</h5>
+                            <p class="small text-muted">Our family legacy means decades of passed-down knowledge to select and handle products with care, so you can depend on reliable quality every time.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="p-3">
+                            <div class="icon-feature text-success mb-3 d-inline-block bg-success-subtle p-3 rounded-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16"><path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586zm4.5-.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/><path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/></svg>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Great Value</h5>
+                            <p class="small text-muted">Premium pantry staples offered at a fair and honest price for your family and kitchen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 section-padding catalog-download-section"> 
+            <div class="container text-center">
+                <h2 class="display-5 fw-bold mb-4">Explore Our Full Retail Range</h2>
+                <div class="mb-4 mx-auto" style="max-width: 300px;">
+                    <img src="assets/images/catalog-mockup.png" class="img-fluid rounded shadow" alt="Riverhead Retail Catalog Cover">
+                </div>
+                <p class="lead text-muted col-lg-8 mx-auto mb-4">
+                    Get a comprehensive look at all our products available for your home. Download our latest catalog today!
+                </p>
+                <a href="assets/files/riverhead-retail-catalog.pdf" target="_blank" class="btn btn-success btn-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                    </svg>
+                    Download Our Retail Catalog
+                </a>
+            </div>
+        </section>
+
+        <section class="py-5 section-padding"> 
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-lg-6">
+                        <div class="p-4 bg-white rounded shadow-sm h-100 d-flex flex-column justify-content-around align-items-center">
+                            <h3 class="fw-bold mb-3 text-riverhead-green-dark">Find Our Products Locally</h3>
+                            <p class="text-muted mb-4 px-3">Locate Riverhead products in a store near you using our easy-to-use store locator.</p>
+                            <a href="where-to-buy.html" class="btn btn-outline-success px-4">
+                                Store Locator
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-4 bg-white rounded shadow-sm h-100 d-flex flex-column justify-content-around align-items-center">
+                            <h3 class="fw-bold mb-3 text-riverhead-green-dark">For Businesses & Partners</h3>
+                            <p class="text-muted mb-4 px-3">Interested in wholesale, distribution, or private label opportunities with Riverhead?</p>
+                            <a href="for-your-business.html" class="btn btn-outline-success px-4">
+                                Partner With Us
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short ms-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start gy-4">
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-md-3">
+                    <img src="assets/images/Riverhead-logo-full-outline.svg" alt="Riverhead Logo White Outline" class="footer-logo mb-3 d-block mx-auto mx-md-0">
+                    <p class="small footer-slogan">"A Legacy of Exceptional Beans since 1960"</p>
+                    <p class="small mt-3 footer-copyright">&copy; <span id="currentYearFooter"></span> Metro Commodities, Inc. <br class="d-none d-md-inline">All Rights Reserved.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer-links">
+                    <h5 class="text-uppercase mb-4 fw-bold">Quick Links</h5>
+                    <p class="mb-1"><a href="index.html" class="text-decoration-none">Home</a></p>
+                    <p class="mb-1"><a href="products.html" class="text-decoration-none">Products</a></p>
+                    <p class="mb-1"><a href="our-brand.html" class="text-decoration-none">Our Brand</a></p>
+                    <p class="mb-1"><a href="where-to-buy.html" class="text-decoration-none">Where to Buy</a></p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer-links">
+                    <h5 class="text-uppercase mb-4 fw-bold">Support</h5>
+                    <p class="mb-1"><a href="for-your-business.html" class="text-decoration-none">For Your Business</a></p>
+                    <p class="mb-1"><a href="private-label.html" class="text-decoration-none">Private Label</a></p>
+                    <p class="mb-1"><a href="contact-us.html" class="text-decoration-none">Contact Us</a></p>
+                    <p class="mb-1"><a href="faq.html" class="text-decoration-none">FAQ</a></p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer-contact">
+                    <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
+                    <p class="small mb-1"><span class="fw-bold">Metro Commodities, Inc.</span></p>
+                    <p class="small mb-1">123 Riverhead Lane, Foodsville, USA</p>
+                    <p class="small mb-1">Email: info@riverheadfoods.com</p>
+                    <p class="small mb-1">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+             <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center footer-legal-links">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item"><a href="privacy-policy.html" class="text-decoration-none small">Privacy Policy</a></li>
+                    <li class="list-inline-item mx-1 small">|</li>
+                    <li class="list-inline-item"><a href="terms-of-use.html" class="text-decoration-none small">Terms of Use</a></li>
+                     <li class="list-inline-item mx-1 small">|</li>
+                    <li class="list-inline-item"><a href="sitemap.html" class="text-decoration-none small">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
