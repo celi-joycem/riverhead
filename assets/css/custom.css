@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* 1. VARIABLES CSS (Custom Properties) */
+/*  */
 :root {
-    --riverhead-green-primary: #16a34a; 
-    --riverhead-green-dark: #15803d;    
+    /* Verde anterior #16a34a  / verde oscuro #15803d */
+    --riverhead-green-primary: #66B032; 
+    --riverhead-green-dark: #539C29;    
     --riverhead-green-light: #dcfce7; 
     --riverhead-accent-yellow: #F7C548;
     
@@ -85,7 +87,8 @@ a:hover {
     background-color: var(--riverhead-green-dark);
     border-color: var(--riverhead-green-dark);
     color: #fff;
-    box-shadow: 0 0 0 0.25rem rgba(22, 163, 74, 0.5); 
+    box-shadow: 0 0 0 0.25rem rgba(22, 163, 74, 0.5);
+    text-decoration: none;
 }
 
 .btn-outline-success { 
@@ -97,6 +100,7 @@ a:hover {
     color: #fff;
     background-color: var(--riverhead-green-primary);
     border-color: var(--riverhead-green-primary);
+    text-decoration: none;
 }
 
 .btn-light { 
@@ -109,6 +113,7 @@ a:hover {
     background-color: #d3d9df; 
     border-color: #d3d9df;
     color: var(--riverhead-text-dark);
+    text-decoration: none;
 }
 .btn-outline-light { 
     color: #f8f9fa; 
@@ -266,7 +271,7 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)); 
+    /* background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6));  */
 }
 .hero-carousel .carousel-caption {
     background-color: transparent; 
